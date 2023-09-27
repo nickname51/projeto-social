@@ -9,17 +9,22 @@
 html, body {
     height:100vh;
     width: 100vw;
-    background-color: black;
+}
+
+body {
+    background-image: url(pacote-d013/imagens/fundo-madeira.jpg);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 main {
     height: 100vh;
-    position: relative;
-    background-color: green;
+    position: relative; 
 }
 
 #telefone {
-    background-image: url(pacote-d013/imagens/frame-iphone.png);
+    background-image: url('pacote-d013/imagens/frame-iphone.png');
     background-repeat: no-repeat;
     position: absolute;
     top:50%;
@@ -28,5 +33,4 @@ main {
 
     height: 630px;
     width: 310px;
-    background-color: blue;
 }
